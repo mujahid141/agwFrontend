@@ -1,0 +1,27 @@
+.price-filter {
+    margin: 1rem; /* Add some margin for spacing */
+    padding: 1rem; /* Add padding for better visual separation */
+    border: 1px solid #ddd; /* Optional border for definition */
+    border-radius: 4px; /* Rounded corners for a softer look */
+  }
+  
+  .price-filter label {
+    display: block; /* Display labels on their own line */
+    margin-bottom: 0.5rem; /* Add space between labels and input fields */
+  }
+  
+  .price-filter input {
+    padding: 0.5rem; /* Add padding for better user input experience */
+    border: 1px solid #ccc; /* Light border for input fields */
+    border-radius: 4px; /* Rounded corners for input fields */
+  }
+  
+  .price-filter button {
+    padding: 0.5rem 1rem; /* Adjust padding for a good button size */
+    background-color: #4CAF50; /* Green color for the button */
+    color: white; /* White text for the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    padding-top: 5px;
+    margin-top: 5px;
+    cursor: pointer}
