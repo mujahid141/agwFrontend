@@ -32,7 +32,7 @@ const CategoriesCard = ({ categories, maxCategories = 5, seeAllText = 'See all c
               <ListItemIcon>
                 <Checkbox edge="start" checked={selectedCategories.includes(category)} />
               </ListItemIcon>
-              <ListItemText primary={category} />
+              <ListItemText primary={category.title} />
             </ListItem>
           ))}
         </List>

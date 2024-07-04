@@ -14,7 +14,7 @@ import { blogPost } from './pages/Blog';
 import Account from './pages/Account';
 import WishList from './pages/WishList';
 import Cart from './pages/Cart';
-import { products } from './pages/Home';
+
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path="/account" element={<Account />} />
       <Route path="/wishlist" element={<WishList  />} />
-      <Route path="/cart" element={<Cart products={products} />} />
+      {/* <Route path="/cart" element={<Cart products={} />} /> */}
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
      

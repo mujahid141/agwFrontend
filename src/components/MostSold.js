@@ -10,10 +10,10 @@ const MostSold = ({products}) => {
           {products.map((product) => (
             <ListItem key={product.id} button sx={{ '&:hover': { backgroundColor: 'lightgray' } }}>
               <ListItemIcon>
-                <img src={product.imageUrl} alt={product.name} width={70} height={70} />
+              <img src={product.images && product.images[0]? 'http://127.0.0.1:8000/'+product.images[0].image : ''} alt={product.name} width={70} height={70} />
               </ListItemIcon>
               <ListItemText
-                primary={product.name}
+                primary={product.title}
                 secondary={
                   <Typography variant="body2" color="text.secondary">
                     ${product.price}
